@@ -1,17 +1,13 @@
-const http = require('http');
-const port = 80;
+var http = require('http');
 
-const requestHandler = (request, response) => {
-  console.log(request.url);
-  response.end('Hello Node.js Server!');
-}
+var server = http.createServer(function(request, response) {
 
-const server = http.createServer(requestHandler);
+    response.writeHead(200, {"Content-Type": "text/plain"});
+    response.end("Hello World!");
 
-server.listen(port, (err) => {
-  if (err) {
-    return console.log('something bad happened', err);
-  }
+});
 
-  console.log(`server is listening on ${port}`);
-})
+var port = process.env.PORT || 1337;
+server.listen(port);
+
+console.log("Server running at http://localhost:%d", port);
