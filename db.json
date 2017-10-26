@@ -1,0 +1,82 @@
+{
+    "projects": [
+        {
+            "name": "Ułatwiaczek",
+            "description": "Aplikacja ułątwiająca liczenei łątwości sprawdzianów",
+            "link": "https://github.com/Marucik/Ulatwiaczek",
+            "isDone": true
+        },
+        {
+            "name": "Absolwenci.PRO",
+            "description": "Baza danych absolwentów szkoły",
+            "link": "https://github.com/Dawiducik/Absolwenci.pro",
+            "isDone": false
+        }
+    ],
+    "tech": {
+        "planing": [
+            {
+                "name": "C#",
+                "description": "poziom wyższy niż podstawowy"
+            },
+            {
+                "name": "C++",
+                "description": "poziom wyższy niż podstawowy"
+            },
+            {
+                "name": "Angular.JS",
+                "description": ""
+            }
+        ],
+        "inProgress": [
+            {
+                "name": "Node.js",
+                "description": ""
+            },
+            {
+                "name": "Vue.js",
+                "description": ""
+            },
+            {
+                "name": "Express.js",
+                "description": ""
+            },
+            {
+                "name": "JavaScript",
+                "description": "ES6"
+            },
+            {
+                "name": "PHP",
+                "description": ""
+            }
+        ],
+        "learnt": [
+            {
+                "name": "JavaScript",
+                "description": "Med"
+            },{
+                "name": "HTML 5",
+                "description": "High"
+            },{
+                "name": "CSS 3",
+                "description": "High"
+            },{
+                "name": "PHP",
+                "description": "Med"
+            },{
+                "name": "SQL",
+                "description": "Med"
+            },{
+                "name": "C++",
+                "description": "Beg"
+            },{
+                "name": "C#",
+                "description": "Beg"
+            }
+        ]
+    },
+    "contact": {
+        "email": "rakoczy.mk@gmail.com",
+        "number": "883003029"
+    }
+}
