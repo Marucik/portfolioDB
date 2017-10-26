@@ -1,13 +1,29 @@
-var http = require('http');
+var express = require('express');
+var app = express();
+var bodyParser = require('body-parser');
+var db = require("./db.json");
 
-var server = http.createServer(function(request, response) {
+app.use(bodyParser.json());
 
-    response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello World!");
+app.get('/', (req, res) => {
+  res.send('<center><h1>Sorki, nic tu nie znajdziesz :c</h1></center>');
+})
 
-});
+app.get('/projects', (req, res) => {
+    res.json(db.projects);
+})
 
-var port = process.env.PORT || 80;
-server.listen(port);
+app.get('/tech', (req, res) => {
+    res.json(db.tech);
+})
 
-console.log("Server running at http://localhost:%d", port);
+app.get('/contact', (req, res) => {
+    res.json(db.contact);
+})
+
+
+let PORT = process.env.PORT || 80;
+
+app.listen(PORT, function () {
+    console.log(`Server listening on port: ${PORT}`);
+  })
