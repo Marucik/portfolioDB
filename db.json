@@ -2,13 +2,13 @@
     "projects": [
         {
             "name": "Ułatwiaczek",
-            "description": "Aplikacja ułątwiająca liczenei łątwości sprawdzianów",
+            "description": "Aplikacja ułatwiająca liczenie łatwości sprawdzianów.",
             "link": "https://github.com/Marucik/Ulatwiaczek",
             "isDone": true
         },
         {
             "name": "Absolwenci.PRO",
-            "description": "Baza danych absolwentów szkoły",
+            "description": "Baza danych absolwentów szkoły.",
             "link": "https://github.com/Dawiducik/Absolwenci.pro",
             "isDone": false
         }
@@ -17,11 +17,11 @@
         "planing": [
             {
                 "name": "C#",
-                "description": "poziom wyższy niż podstawowy"
+                "description": "Poziom wyższy niż podstawowy."
             },
             {
                 "name": "C++",
-                "description": "poziom wyższy niż podstawowy"
+                "description": "Poziom wyższy niż podstawowy."
             },
             {
                 "name": "Angular.JS",
